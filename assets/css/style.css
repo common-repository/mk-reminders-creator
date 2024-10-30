@@ -1,0 +1,32 @@
+#mk_reminders_input {
+    width:450px;
+    height:450px;
+}
+
+#mk_reminders_input_title {
+    font:bold 25px Times;
+}
+
+#reminders_edit_button {
+    position: absolute;
+    right: 1%;
+    bottom: 7%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: white;
+    font-size: 10px;
+    color: #bd0000;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor:default;
+}
+
+#reminders_edit_button:hover {
+    background:#bd0000;
+    color:white;
+}
